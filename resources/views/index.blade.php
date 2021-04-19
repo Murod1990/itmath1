@@ -12,7 +12,7 @@
 
   
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+  
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +20,7 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
 
   <style> 
   span[id='kod']
@@ -36,7 +37,6 @@
   }
   h1[id='kodi']
   {
-    
     text-align: center; 
     color: rgb(0, 0, 0);
   }
@@ -59,16 +59,17 @@
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
   <!-- ======= Header ======= -->
   <!-- ======= Header ======= -->
+  
   <header id="header" class="d-flex flex-column justify-content-center">
-
+    
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Darslar</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Biz haqimizda</span></a></li>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bxs-like bx-tada"></i> <span  >Darslar</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-book"></i> <span>Biz haqimizda</span></a></li>
         <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
         <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
         <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Bog'lanish</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -77,7 +78,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom" data-aos-delay="100">
-      <h1 id='kodi' >Yuksak maqsad sari vaqtingizni ayamang vaqt shundoq ham o'tadi</h1>
+      <h1 id='kodi' >Yuksak maqsad sari vaqtingizni ayamang vaqt shundoq ham o'tib ketadi</h1>
       <p id='kode' >Darslar : <span id='kod' class="typed" data-typed-items="PHP dastulash tili..., SQL tili..., Laravel framework, Sohaga oyid yangiliklar"></span></p>
       <div class="social-links">
         <a href="https://t.me/JonsM90" class="telegram" title='telegram'><i class="bx bxl-telegram"></i></a>
@@ -85,14 +86,17 @@
         <a href="https://www.youtube.com/channel/UCPKOext57RMQ0JtR_anoRGw" class="youtube" title='youtube'><i class="bx bxl-youtube"></i></a>
       
       </div>
+      
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
   </section><!-- End Hero -->
 
   <main id="main">
@@ -103,41 +107,31 @@
 
         <div class="section-title">
           <h2>Biz haqimizda</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Siz ushbu saytga tashrif buyurdingizmi demak sizda dasturlash bo'lgan qiziqish mavjud biz sizning bilimlaringizni o'stirishga yordam beramiz</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/er.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>UI/UX Designer &amp; Web Developer.</h3>
+            <h3>Web dasturlash &amp; Ma'lumotlar bazasi bilan ishlash.</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Bilim olishning erta-yu kechi yo'q. Dasturalshni nimadan o'rganishni boshlasam ekan  deb o'ylab turibsizmi  unda biz sizga yordam beramiz
+              dasturalashni o'rganishda qo'yiladigan asosiy talablar quyidagicha :
             </p>
             <div class="row">
+              
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Sabir</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Chet tililarini bilish(Rus tili va Ingliz tili)</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>O'rganishda har xil dasturalsh tillarini aralashtirmaslik </span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Har doim yangi texnalogiyani o'rganish</span></li>
                 </ul>
               </div>
             </div>
-            <p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-            </p>
+            
           </div>
         </div>
 
@@ -149,8 +143,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Facts</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Faktlar</h2>
+          <p>Mavjuv qo'llanmalar soni va Foydalanuvchilar soni.</p>
         </div>
 
         <div class="row">
@@ -159,7 +153,7 @@
             <div class="count-box">
               <i class="bi bi-emoji-smile"></i>
               <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Happy Clients</p>
+              <p>Foydalanuvchi</p>
             </div>
           </div>
 
@@ -167,25 +161,19 @@
             <div class="count-box">
               <i class="bi bi-journal-richtext"></i>
               <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
+              <p>Qo'lanmalar</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
               <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
+              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Viedo darslar</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-award"></i>
-              <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Awards</p>
-            </div>
-          </div>
+       
 
         </div>
 
