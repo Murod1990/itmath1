@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/darslar', function () {
+    return view('darslar.index');
+});
+Route::get('/phpone','Darscontroller@php1')->name('darslar.php1');

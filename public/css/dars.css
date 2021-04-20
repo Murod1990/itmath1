@@ -1,0 +1,112 @@
+<style>
+      .callout-info {
+        font-size: 20px;
+        background:rgb(90, 135, 136);
+        color: rgb(242, 243, 241);
+ 
+       
+      }
+      .callout {
+        font-size: 20px;
+        background:rgb(31, 136, 113);
+        color: rgb(255, 255, 255);
+ 
+       
+      }
+.sidebar{
+position: fixed;
+width: 200px;
+height: 100%;
+margin: 0;
+padding: 0;
+background:rgb(42, 60, 161);
+overflow: auto;
+}
+
+.sidebar .text{
+  color: white;
+  font-size: 20px;
+  font-weight: auto;
+  line-height: 30px;
+  text-align: center;
+  background: #1e1e1e;
+  letter-spacing: 1px;
+}
+
+div ul{
+  
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+div ul li{
+  line-height: 30px;
+  border-bottom: 1px solid rgba(201, 178, 178, 0.1);
+}
+
+div ul li a{
+  position: relative;
+  color: rgb(8, 5, 5);
+  text-decoration: none;
+  font-size: 16px;
+  
+  font-weight: 200px;
+  display: block;
+  width: 100%;
+  border-left: 7px solid transparent;
+}
+div ul  li a:hover{
+    color: rgb(229, 233, 220);
+ 
+    border-left-color:aqua;
+}
+
+
+div ul  li a span{
+  position: absolute;
+   top: 50%;
+   right: 20px;
+  transform: translateY(-50%);
+  font-size: 22px;
+  transition: transform 0.4s;
+}
+
+
+div ul ul{
+    position: static;
+    display: none;
+}
+div ul.feat-show.show{
+  display: block;  
+}
+div ul.serv-show.sho{
+  display: block;  
+}
+
+div ul.ser-show.sh{
+  display: block;  
+}
+
+div.container {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.container {margin-left: 0;}
+  
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+    </style>
