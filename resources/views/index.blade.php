@@ -7,8 +7,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Itmath</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="description" content="Itmath.uz sayti">
 
   
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -64,11 +63,13 @@
     
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a href="/darslar" class="nav-link scrollto active"><i class="bx bxs-like bx-tada"></i> <span  >Darslar</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-book"></i> <span>Biz haqimizda</span></a></li>
+        <li><a href="/darslar" class="nav-link scrollto active"><i class="bx bxs-like bx-tada"></i> <span  >@lang('home.Darslar')</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-book"></i> <span>@lang('home.Biz haqimizda')</span></a></li>
    
-        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-lock"></i> <span>Tizimga kirish</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Bog'lanish</span></a></li>
+        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-lock"></i> <span>@lang('home.Tizimga kirish')</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>@lang("home.Bog'lanish")</span></a></li>
+        <li><a href="locale/uz" class="nav-link scrollto"> <span>UZ</span></a></li>
+        <li><a href="locale/en" class="nav-link scrollto"> <span>RU</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -77,8 +78,8 @@
   <!-- ======= Hero Section ======= -->
   <section id="" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom" data-aos-delay="100">
-      <h1 id='kodi' >Yuksak maqsad sari vaqtingizni ayamang vaqt shundoq ham o'tib ketadi</h1>
-      <p id='kode' >Darslar : <span id='kod' class="typed" data-typed-items="PHP dastulash tili..., SQL tili..., Laravel framework, Sohaga oyid yangiliklar"></span></p>
+      <h1 id='kodi' > @lang("home.Yuksak maqsad sari vaqtingizni ayamang vaqt shundoq ham o'tib ketadi")</h1>
+      <p id='kode' >@lang('home.Darslar') : <span id='kod' class="typed" data-typed-items="@lang('home.PHP dasturlash tili...'), @lang('home.SQl tili...'), Laravel framework..., @lang('home.Turli yangiliklar')"></span></p>
       <div class="social-links">
         <a href="https://t.me/JonsM90" class="telegram" title='telegram'><i class="bx bxl-telegram"></i></a>
         <a href="#" class="facebook" title='facebook'><i class="bx bxl-facebook"></i></a>
@@ -105,7 +106,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Biz haqimizda</h2>
+          <h2>@lang('home.Biz haqimizda')</h2>
           <p>Siz ushbu saytga tashrif buyurdingizmi demak sizda dasturlash bo'lgan qiziqish mavjud biz sizning bilimlaringizni o'stirishga yordam beramiz</p>
         </div>
 
