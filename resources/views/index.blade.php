@@ -66,7 +66,7 @@
         <li><a href="/darslar" class="nav-link scrollto active"><i class="bx bxs-like bx-tada"></i> <span  >@lang('home.Darslar')</span></a></li>
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-book"></i> <span>@lang('home.Biz haqimizda')</span></a></li>
    
-        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-lock"></i> <span>@lang('home.Tizimga kirish')</span></a></li>
+        <li><a href="/home" class="nav-link scrollto"><i class="bx bx-lock"></i> <span>@lang('home.Tizimga kirish')</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>@lang("home.Bog'lanish")</span></a></li>
         <li><a href="locale/uz" class="nav-link scrollto"> <span>UZ</span></a></li>
         <li><a href="locale/en" class="nav-link scrollto"> <span>RU</span></a></li>
