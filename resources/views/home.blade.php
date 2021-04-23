@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('darslar.index')
 
 @section('content')
 <div class="container">

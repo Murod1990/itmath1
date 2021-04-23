@@ -26,12 +26,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     -->
 
-
+   
      <div class='sidebar' >
                 <div class='text'>It<span style="color:rgb(241, 120, 120)">M</span>ath</div>
                 <div class='text'>darslari</div>
              <ul>
+              
               <li>
+              <div style='color:rgb(225, 231, 224)'>  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 16 16">
+                  <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z"/>
+                </svg>  {{ Auth::user()->name}} 
+               
+              </div>
               <a href="#">Algoritimlar</a>
               </li>
               <li>
@@ -78,15 +85,32 @@
         
                <li><a href="#"> PHP kitobi </i></a></li>
                <li><a href="#">SQL kitobi</a></li>
-               <li><a href="#">Laravel qo'llanma</a></li>
+               <li><a href="https://laravel.com/">Laravel.com</a></li>
            
-            
+         
+            <li class="nav-item dropdown">
+                <div class="" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="{{ route('logout') }}"
+                     onclick="event.preventDefault();
+                                   document.getElementById('logout-form').submit();">
+                      {{ __('Chiqish') }}
+                  </a>
+                  
+              
+                  <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                      @csrf
+                  </form>
+              </div>
+          </li>
         </ul>
         
+              
+        
+
 </div>
    <div class="container">
      <div class='row'>
-       
+      
      @yield('content')
 
         
