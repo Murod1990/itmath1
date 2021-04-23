@@ -76,8 +76,8 @@
               <li>
                 <a href="#" class='ser-btn' style='color:rgb(21, 255, 0)'>Laravel dars  </a>
               <ul class='ser-show'> 
-                <li><a href="#">Mash2-2</a></li>
-                <li><a href="#">Mash2-3</a></li>
+                <li><a href="#">Laravel haqida</a></li>
+                <li><a href="#">Disectop</a></li>
                 <li><a href="#">Mash2-4</a></li>
               </ul>
               </li>

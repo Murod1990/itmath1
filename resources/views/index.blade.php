@@ -130,7 +130,10 @@
                   <li><i class="bi bi-chevron-right"></i> <strong>Chet tililarini bilish(Rus tili va Ingliz tili)</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>O'rganishda har xil dasturalsh tillarini aralashtirmaslik </span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Har doim yangi texnalogiyani o'rganish</span></li>
-                </ul>
+                
+
+                  </ul>
+                <a href='/welcome'>Welcomga o'tish </a>
               </div>
             </div>
             

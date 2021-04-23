@@ -27,3 +27,7 @@ Route::get('/phpone','Darscontroller@php1')->name('darslar.php1');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('index');
+
+Route::get('/welcome', function () {
+    return view('welcome');
+});
