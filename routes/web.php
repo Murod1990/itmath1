@@ -10,6 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Http\Controllers\Darscontrollerr;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MailController;
+
 Route::get('locale/{locale}',function ($locale)
 {
     Session::put('locale',$locale);
@@ -20,9 +24,8 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/darslar', function () {
-    return view('darslar.index');
-});
+Route::get('/begines','Darscontroller@boshlandi')->name('darslar.index');
+
 Route::get('/phpone','Darscontroller@php1')->name('darslar.php1');
 Auth::routes();
 
@@ -31,3 +34,4 @@ Route::get('/home', 'HomeController@index')->name('index');
 Route::get('/welcome', function () {
     return view('welcome');
 });
+Route::post('/sendmail','MailController@emailCont');

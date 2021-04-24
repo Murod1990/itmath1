@@ -63,7 +63,7 @@
     
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a href="/darslar" class="nav-link scrollto active"><i class="bx bxs-like bx-tada"></i> <span  >@lang('home.Darslar')</span></a></li>
+        <li><a href="/begines" class="nav-link scrollto active"><i class="bx bxs-like bx-tada"></i> <span  >@lang('home.Darslar')</span></a></li>
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-book"></i> <span>@lang('home.Biz haqimizda')</span></a></li>
   
         
@@ -81,7 +81,7 @@
   <section id="" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom" data-aos-delay="100">
       <h1 id='kodi' > @lang("home.Yuksak maqsad sari vaqtingizni ayamang vaqt shundoq ham o'tib ketadi")</h1>
-      <p id='kode' >@lang('home.Darslar') : <span id='kod' class="typed" data-typed-items="@lang('home.PHP dasturlash tili...'), @lang('home.SQl tili...'), Laravel framework..., @lang('home.Turli yangiliklar')"></span></p>
+      <p id='kode' >@lang('home.Darslar') : <span id='kod' class="typed" data-typed-items=" @lang('home.PHP dasturlash tili...'), @lang('home.SQl tili...'), Laravel framework..., @lang('home.Turli yangiliklar')"></span></p>
       <div class="social-links">
         <a href="https://t.me/JonsM90" class="telegram" title='telegram'><i class="bx bxl-telegram"></i></a>
         <a href="#" class="facebook" title='facebook'><i class="bx bxl-facebook"></i></a>
@@ -90,6 +90,9 @@
       </div>
       
     </div>
+   <br>
+   <br>
+   <br>
    <br>
    <br>
    <br>
@@ -229,10 +232,17 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0">
+               
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="/sendmail" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
+                  @if (Session::get('success'))
+                <div class="alert alert-primary" role="alert">
+                {{Session::get('success')}}
+                </div>
+                @endif
+                {{ csrf_field() }}
                   <input type="text" name="name" class="form-control" id="name" placeholder="Ismingiz" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">

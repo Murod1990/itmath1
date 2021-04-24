@@ -4,7 +4,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Itmath</title>
+    <title>Itmath||dasr</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <!-- Bootstrap CSS -->
@@ -29,14 +29,14 @@
    
      <div class='sidebar' >
                 <div class='text'>It<span style="color:rgb(241, 120, 120)">M</span>ath</div>
-                <div class='text'>darslari</div>
+                <div class='text'>darslari !</div>
              <ul>
               
               <li>
               <div style='color:rgb(225, 231, 224)'>  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 16 16">
                   <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
                   <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z"/>
-                </svg>  {{ Auth::user()->name}} 
+                </svg>  {{$jps=Auth::user()->name}} 
                
               </div>
               <a href="#">Algoritimlar</a>
@@ -78,13 +78,13 @@
               <ul class='ser-show'> 
                 <li><a href="#">Laravel haqida</a></li>
                 <li><a href="#">Disectop</a></li>
-                <li><a href="#">Mash2-4</a></li>
+                <li><a href="#">Migration</a></li>
               </ul>
               </li>
         
         
                <li><a href="#"> PHP kitobi </i></a></li>
-               <li><a href="#">SQL kitobi</a></li>
+               <li><a href="#"> SQL kitobi</a></li>
                <li><a href="https://laravel.com/">Laravel.com</a></li>
            
          

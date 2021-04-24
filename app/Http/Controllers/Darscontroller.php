@@ -10,4 +10,8 @@ class Darscontroller extends Controller
     {
       return view ('darslar.php1');  
     }
+    public function boshlandi()
+    {
+      return view ('darslar.index'); 
+    }
 }
