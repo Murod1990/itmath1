@@ -91,19 +91,27 @@
         <a href="https://www.youtube.com/channel/UCPKOext57RMQ0JtR_anoRGw" class="youtube" title='youtube'><i class="bx bxl-youtube"></i></a>
       
       </div>
-      
+      <div>
+        Siz bosib o'tiyatgan yo'l qanchalik muakkab bo'lsada o'z maqsadingiz sari intilishdan charchamang
+      </div> 
+      <div>
+        Siz bosib o'tiyatgan yo'l qanchalik muakkab bo'lsada o'z maqsadingiz sari intilishdan charchamang
+      </div> 
+      <div>
+        Siz bosib o'tiyatgan yo'l qanchalik muakkab bo'lsada o'z maqsadingiz sari intilishdan charchamang
+      </div> 
+      <div>
+        Siz bosib o'tiyatgan yo'l qanchalik muakkab bo'lsada o'z maqsadingiz sari intilishdan charchamang
+      </div> 
+      <div>
+        Siz bosib o'tiyatgan yo'l qanchalik muakkab bo'lsada o'z maqsadingiz sari intilishdan charchamang
+      </div> 
+      <div>
+        Siz bosib o'tiyatgan yo'l qanchalik muakkab bo'lsada o'z maqsadingiz sari intilishdan charchamang
+      </div> 
     </div>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
+ 
+
    <br>
   </section><!-- End Hero -->
 
