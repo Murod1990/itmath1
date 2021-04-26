@@ -34,4 +34,4 @@ Route::get('/home', 'HomeController@index')->name('index');
 Route::get('/welcome', function () {
     return view('welcome');
 });
-Route::post('/sendmail','MailController@emailCont');
+Route::post('/sendmail','MailController@build');

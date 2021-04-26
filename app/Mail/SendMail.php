@@ -7,7 +7,7 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class Mail extends Mailable
+class SendMail extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -16,9 +16,9 @@ class Mail extends Mailable
      *
      * @return void
      */
-    public function __construct($data)
+    public function __construct($date)
     {
-        $this->date =$date;
+        $this->date=$date;
     }
 
     /**

@@ -58,20 +58,23 @@
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
   <!-- ======= Header ======= -->
   <!-- ======= Header ======= -->
-  
+
+
   <header id="header" class="d-flex flex-column justify-content-center">
     
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a href="/begines" class="nav-link scrollto active"><i class="bx bxs-like bx-tada"></i> <span  >@lang('home.Darslar')</span></a></li>
+        <li><a href="/home" class="nav-link scrollto active" title="Tizimga kirish orqali o'tiladi"><i class="bx bxs-like bx-tada"></i> <span  >@lang('home.Darslar')</span></a></li>
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-book"></i> <span>@lang('home.Biz haqimizda')</span></a></li>
   
         
         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>@lang("home.Bog'lanish")</span></a></li>
-        <li><a href="/home" class="nav-link scrollto"><i class="bx bx-lock"></i> <span>@lang('home.Tizimga kirish')</span></a></li>
+        
+       
 
-        <li><a href="locale/uz" class="nav-link scrollto"> <span>UZ</span></a></li>
-        <li><a href="locale/en" class="nav-link scrollto"> <span>RU</span></a></li>
+
+        <li><a href="locale/uz" class="dropdown-item"> <span>UZ</span></a></li>
+        <li><a href="locale/en" class="dropdown-item"> <span>RU</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -211,7 +214,7 @@
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
+                <h4><a href="https://goo.gl/maps/BEcrHwnccnWr6tEa9"> Location: </a> </h4>
                 <p>Buxoro viloyai Vobkent tumani</p>
               </div>
 
@@ -234,15 +237,20 @@
           <div class="col-lg-8 mt-5 mt-lg-0">
                
 
-            <form action="/sendmail" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  @if (Session::get('success'))
+            <form action="/sendmail" method="post" data-aos="fade-left" >
+               
+             
+                @if (Session::get('success'))
                 <div class="alert alert-primary" role="alert">
-                {{Session::get('success')}}
-                </div>
-                @endif
-                {{ csrf_field() }}
+              {{Session::get('success')}}
+              </div>
+              @endif
+              
+
+                  {{ csrf_field() }}
+                  <div class="row">
+               
+                    <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Ismingiz" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
@@ -255,13 +263,16 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Xabar..." required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">iltimos kuting</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Xabaringiz jo'natildi!</div>
-              </div>
-              <div class="text-center"><button type="submit">Jo'natish</button></div>
+             <div class='my-3'>
+                
+                <div class="text-center"><input type="submit" class="btn btn-success" value="Jo'natish"> </div>
+            </div>
+              
             </form>
+
+
+
+   
 
           </div>
 

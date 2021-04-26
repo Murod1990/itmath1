@@ -36,8 +36,8 @@
               <div style='color:rgb(225, 231, 224)'>  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 16 16">
                   <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
                   <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z"/>
-                </svg>  {{$jps=Auth::user()->name}} 
-               
+                </svg>  
+                {{ Auth::user()->name }}
               </div>
               <a href="#">Algoritimlar</a>
               </li>
@@ -88,12 +88,15 @@
                <li><a href="https://laravel.com/">Laravel.com</a></li>
            
          
-            <li class="nav-item dropdown">
+            <li >
+              
                 <div class="" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="{{ route('logout') }}"
                      onclick="event.preventDefault();
                                    document.getElementById('logout-form').submit();">
-                      {{ __('Chiqish') }}
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                    </svg>  {{ __( 'Chiqish') }}
                   </a>
                   
               
