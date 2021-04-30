@@ -26,7 +26,7 @@ Route::get('/', function () {
 
 Route::get('/begines','Darscontroller@boshlandi')->name('darslar.index');
 
-Route::get('/phpone','Darscontroller@php1')->name('darslar.php1');
+Route::get('/phpr001','Darscontroller@php1');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('index');
@@ -35,3 +35,8 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 Route::post('/sendmail','MailController@build');
+Route::get('/php0457','Darscontroller@ozgar');
+Route::get('/sintaksis','Darscontroller@sintaksis');
+Route::get('/vrable','Darscontroller@orgauvchi');
+Route::get('/malumot-turlari','Darscontroller@maltur');
+Route::get('/Satrlar-1','Darscontroller@strlar');

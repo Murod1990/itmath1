@@ -9,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-<link href='css/dars.css'  rel="stylesheet">
+<link href={{Asset('css/dars.css')}}  rel="stylesheet">
     
   </head>
   <body>
@@ -20,11 +20,7 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    -->
+   
 
    
      <div class='sidebar' >
@@ -43,23 +39,22 @@
               </li>
               <li>
         
-              
-        
                 <a href="#1" style='color:rgb(21, 255, 0)'  class='feat-btn'>   PHP darslari  </a>
                 <ul class='feat-show'> 
 
-                <li><a href="/phpone">Echo funsiya</a></li>
-                <li><a href="/php-ozgar">O'zgaruvchilar</a></li>
-                <li><a href="PHP-massiv">Massivlar</a></li>
-                <li><a href={{Asset('Arifmetik')}}>Arifmetik amallar</a></li>
-                <li><a href={{Asset('mantiq-mantiq')}}>Mantiqiy binar amallar</a></li>
-                <li><a href="if-operatori">If operatori</a></li>
+                <li><a href="/phpr001">PHP Tarixi</a></li>
+                <li><a href="/php0457">PHP kirish </a></li>
+                <li><a href="/sintaksis">PHP sintaksis</a></li>
+                <li><a href={{Asset('vrable')}}>PHP-da o'zgaruvchilar </a></li>
+                <li><a href={{Asset('malumot-turlari')}}>Ma'lumot turlari</a></li>
+                <li><a href={{Asset('Satrlar-1')}}>PHP satrlar</a></li>
                 <li><a href="else-if"> Elseif</a></li>
                 <li><a href="{{Asset('swicht-swicht')}}">swicht operatori</a></li>
                 <li><a href="{{Asset('for-for')}}">Takrorlash operatorilari</a></li>
                 <li><a href="{{Asset('Break-brek')}}"> break-Continue</a></li>
                 <li><a href="{{Asset('include-include')}}"> include-require</a></li>
                 <li><a href="{{Asset('function-function')}}"> Funcsiyalar</a></li>
+                
               </ul>
               </li>
               <li>

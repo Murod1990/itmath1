@@ -19,7 +19,7 @@ width: 200px;
 height: 100%;
 margin: 0;
 padding: 0;
-background:rgb(42, 60, 161);
+background:rgb(147, 162, 250);
 overflow: auto;
 }
 
@@ -50,7 +50,7 @@ div ul li a{
   text-decoration: none;
   font-size: 16px;
   
-  font-weight: 200px;
+  font-weight: 300px;
   display: block;
   width: 100%;
   border-left: 7px solid transparent;

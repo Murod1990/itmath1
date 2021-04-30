@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-  <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
 
   <meta charset="utf-8">
@@ -10,7 +9,7 @@
   <meta name="description" content="Itmath.uz sayti">
 
   
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
   
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -91,26 +90,40 @@
         <a href="https://www.youtube.com/channel/UCPKOext57RMQ0JtR_anoRGw" class="youtube" title='youtube'><i class="bx bxl-youtube"></i></a>
       
       </div>
-      <div>
-        Siz bosib o'tiyatgan yo'l qanchalik muakkab bo'lsada o'z maqsadingiz sari intilishdan charchamang
+      Ushbu elektron o'quv dastur Web dasturlash  va Obyektga yo'naltirilgan dasrlash yo'nalishlarini o'z ichiga oladi
+      Web saytdan o'liq foydalanish uchun siz avval ro'yxatdan o'tishiz talab qilinadi
+     <div class='container'>
+       <div class='row'>
+      <div  class='col-sm-6 col-md-6'>
+       
+       <br>
+      <p>Web dasturlash (bekend)</p>
+       <ul>
+
+        <li>PHP dasturlash  tili </li>
+        <li>SQl tili (MYSQL baza)</li>
+        <li>Laravel framework</li>
+
+       </ul>
+      
       </div> 
-      <div>
-        Siz bosib o'tiyatgan yo'l qanchalik muakkab bo'lsada o'z maqsadingiz sari intilishdan charchamang
-      </div> 
-      <div>
-        Siz bosib o'tiyatgan yo'l qanchalik muakkab bo'lsada o'z maqsadingiz sari intilishdan charchamang
-      </div> 
-      <div>
-        Siz bosib o'tiyatgan yo'l qanchalik muakkab bo'lsada o'z maqsadingiz sari intilishdan charchamang
-      </div> 
-      <div>
-        Siz bosib o'tiyatgan yo'l qanchalik muakkab bo'lsada o'z maqsadingiz sari intilishdan charchamang
-      </div> 
-      <div>
-        Siz bosib o'tiyatgan yo'l qanchalik muakkab bo'lsada o'z maqsadingiz sari intilishdan charchamang
-      </div> 
+      
+      <div class='col-sm-6 col-md-6'>
+        <br>
+        Python tili
+        <ul>
+
+          <li>Electron darslik </li>
+          <li>100 dan ortiq misollar</li>
+          <li>Kodlarni ko'chirib olish</li>
+  
+         </ul>
+        </div>
+      </div>
+        <div>
+      </div>
     </div>
- 
+    
 
    <br>
   </section><!-- End Hero -->
@@ -310,6 +323,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  
 
 </body>
 
