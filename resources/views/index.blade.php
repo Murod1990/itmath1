@@ -37,7 +37,11 @@
   {
     text-align: center; 
     color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 12px rgb(245, 194, 27);
   }
+  
+
+
   p[id='kode']
   {
     font-size: 25px;
@@ -82,7 +86,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom" data-aos-delay="100">
-      <h1 id='kodi' > @lang("home.Yuksak maqsad sari vaqtingizni ayamang vaqt shundoq ham o'tib ketadi")</h1>
+      <h1 id='kodi' > @lang("home.Yuksak maqsad sari vaqtingizni ayamang vaqt shundoq ham o'tib ketadi")!</h1>
       <p id='kode' >@lang('home.Darslar') : <span id='kod' class="typed" data-typed-items=" @lang('home.PHP dasturlash tili...'), @lang('home.SQl tili...'), Laravel framework..., @lang('home.Turli yangiliklar')"></span></p>
       <div class="social-links">
         <a href="https://t.me/JonsM90" class="telegram" title='telegram'><i class="bx bxl-telegram"></i></a>
@@ -144,23 +148,23 @@
             <img src="assets/img/er.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Web dasturlash &amp; Ma'lumotlar bazasi bilan ishlash.</h3>
+            <h3>@lang('home.Web dasturlash') &amp; @lang("home.Ma'lumotlar bazasi bilan ishlash").</h3>
             <p class="fst-italic">
               Bilim olishning erta-yu kechi yo'q. Dasturalshni nimadan o'rganishni boshlasam ekan  deb o'ylab turibsizmi  unda biz sizga yordam beramiz
               dasturalashni o'rganishda qo'yiladigan asosiy talablar quyidagicha :
             </p>
             <div class="row">
               
-              <div class="col-lg-6">
+              <div class="col-lg-8">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Sabir</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Chet tililarini bilish(Rus tili va Ingliz tili)</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>O'rganishda har xil dasturalsh tillarini aralashtirmaslik </span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Har doim yangi texnalogiyani o'rganish</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>@lang('home.Sabir')</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>@lang('home.Chet tillarni bilish (rus va ingliz)')</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>@lang("home.O'qitishda turli xil dasturlash tillarini aralashtirmang") </span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>@lang("home.Har doim yangi texnologiyalarni o'rganish")</span></li>
                 
 
                   </ul>
-                <a href='/welcome'>Welcomga o'tish </a>
+               <h2><a href='/welcome'>Turli xil dasturlash tili </a></h2> 
               </div>
             </div>
             
