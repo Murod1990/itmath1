@@ -180,7 +180,7 @@
 
         <div class="section-title">
           <h2>Faktlar</h2>
-          <p>Mavjuv qo'llanmalar soni va Foydalanuvchilar soni.</p>
+          <p>@lang("home.Mavjuv qo'llanmalar soni va foydalanuvchilar soni").</p>
         </div>
 
         <div class="row">

@@ -13,6 +13,7 @@
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
@@ -37,6 +38,7 @@
 </head>
 
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
   <main id="main">
 
@@ -47,27 +49,74 @@
         <div class="row gy-4">
 
           <div class="col-lg-8">
-            <h1>  Kun yangiliklari </h1>   
- 
+        
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="{{Asset('jpg/e_Pochta.jpg')}}" class="card-img-top border border-warning" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="{{Asset('jpg/goog_master.jpg')}}" class="card-img-top border border-warning" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="{{Asset('jpg/add google.jpg')}}" class="card-img-top border border-warning" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
             <div class="portfolio-details-slider swiper-container">
-              <div class="swiper-wrapper align-items-center">
-             @for($i = 0; $i < 100; $i++)
-                  Sassdhakjshdkajsdkjkjsdhkajhsduwhkdahmbcmnbm  sjdhbakjhdskja  jasbhdkahuik
-                @endfor
 
+                <br>
+
+              
+              <div class="swiper-wrapper align-items-center">
+                <div class="card" style="width: 19rem;">
+                 <a href=""><img src="{{Asset('jpg/e_Pochta.jpg')}}" class="card-img-top"  alt="..."></a> 
+                  <div class="card-body">
+                    <p class="card-text">Gmail elektron pochta   </p>
+                  </div>
+                </div> 
+                &amp;
+                <div class="card" style="width: 19rem;">
+                 <a href=""><img src="{{Asset('jpg/goog_master.jpg')}}" class="card-img-top" alt="..."></a> 
+                  <div class="card-body">
+                    <p class="card-text">Google Search Sayt xaritasi </p>
+                  </div>
+                </div>
+                &amp;
+                <div class="card" style="width: 19rem;">
+                  <a href=""><img src="{{Asset('jpg/add google.jpg')}}" class="card-img-top" alt="..."></a> 
+                   <div class="card-body">
+                     <p class="card-text">Add Google nima  </p>
+                   </div>
+                 </div>
+                
+
+
+
+
+                 
               </div>
               <div class="swiper-pagination"></div>
+
             </div>
           </div>
-
+   
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3>Itmath</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Onlayn</strong>: Dasturlash kursalari</li>
+               
+                <li><strong>Tasischi</strong>:Rasulov Murodjon </li>
+                <li><strong>Buxoro</strong>: <a href="https://itmath.uz/">www.Itmath.uz</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
@@ -82,7 +131,7 @@
                 <li><strong>Category</strong>: Web design</li>
                 <li><strong>Client</strong>: ASU Company</li>
                 <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Project URL</strong>: <a href="">www.example.com</a></li>
               </ul>
             </div>
           </div>

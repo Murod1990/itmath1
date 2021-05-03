@@ -82,7 +82,7 @@
                <li><a href="#"> SQL kitobi</a></li>
                <li><a href="https://laravel.com/">Laravel.com</a></li>
            
-         
+                 Python va C++ turli
             <li >
               
                 <div class="" aria-labelledby="navbarDropdown">

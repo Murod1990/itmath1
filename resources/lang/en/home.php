@@ -16,4 +16,5 @@ return [
 'Chet tillarni bilish (rus va ingliz)'=>'Знание иностранных языков (русский и английский)',
  "O'qitishda turli xil dasturlash tillarini aralashtirmang"=>'Не путайте разные языки программирования при обучении',
  "Har doim yangi texnologiyalarni o'rganish"=>'Всегда изучаю новые технологий',
+ "Mavjuv qo'llanmalar soni va foydalanuvchilar soni"=>"Количество доступных гиды и количество пользователей"
 ];

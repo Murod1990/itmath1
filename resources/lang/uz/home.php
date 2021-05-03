@@ -16,5 +16,7 @@ return [
 "Chet tillarni bilish (rus va ingliz)" => "Chet tillarni bilish (rus va ingliz)",
 "O'qitishda turli xil dasturlash tillarini aralashtirmang"=>"O'qitishda turli xil dasturlash tillarini aralashtirmang",
 "Har doim yangi texnologiyalarni o'rganish"=>"Har doim yangi texnologiyalarni o'rganish",
+"Mavjuv qo'llanmalar soni va foydalanuvchilar soni"=>"Mavjuv qo'llanmalar soni va foydalanuvchilar soni"
+
 
 ];
