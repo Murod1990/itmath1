@@ -9,12 +9,14 @@
   <title>Itmath||Sohalar</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
+  <meta name="_token" content="{{ csrf_token() }}">
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
 
@@ -46,7 +48,7 @@
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
 
-        <div class="row gy-4">
+        <div class="row gy-6">
 
           <div class="col-lg-8">
         
@@ -98,17 +100,34 @@
                    </div>
                  </div>
                 
-
-
-
-
-                 
               </div>
-              <div class="swiper-pagination"></div>
+             
 
             </div>
+
+            <br>
+            <input type="text" class="form-controller" id="search" name="search"> </input>
+              <table class="table">
+                <thead>
+                <tr>
+                <th scope="col">№</th>
+                <th scope="col">Dars mavzusi</th>
+                <th scope="col">Video</th>
+                
+                </tr>
+                </thead>
+  
+               
+                <tbody>
+                
+               </tbody>
+  
+              
+              </table>
+              
+              
           </div>
-   
+          
           <div class="col-lg-4">
             <div class="portfolio-info">
               <h3>Itmath</h3>
@@ -163,3 +182,20 @@
 </body>
 
 </html>
+
+<script type="text/javascript">
+  $('#search').on('keyup',function(){
+  $value=$(this).val();
+  $.ajax({
+  type : 'get',
+  url : '{{URL::to('search')}}',
+  data:{'search':$value},
+  success:function(data){
+  $('tbody').html(data);
+  }
+  });
+  })
+  </script>
+  <script type="text/javascript">
+    $.ajaxSetup({ headers: { 'csrftoken' : '{{ csrf_token() }}' } });
+    </script>

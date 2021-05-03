@@ -31,12 +31,11 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('index');
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
+Route::get('/welcome','PytcController@saq');
 Route::post('/sendmail','MailController@build');
 Route::get('/php0457','Darscontroller@ozgar');
 Route::get('/sintaksis','Darscontroller@sintaksis');
 Route::get('/vrable','Darscontroller@orgauvchi');
 Route::get('/malumot-turlari','Darscontroller@maltur');
 Route::get('/Satrlar-1','Darscontroller@strlar');
+Route::get( '/search' , 'PytcController@seach' ) ;
