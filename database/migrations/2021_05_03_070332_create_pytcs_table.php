@@ -17,7 +17,10 @@ class CreatePytcsTable extends Migration
             $table->bigIncrements('id');
             $table->string('mavzu');
             $table->string('mavzu_title');
-            $table->string('izoh');
+            $table->string('Video');
+            $table->string('video_title');
+            $table->string('kod');
+            $table->string('kod_title');
             $table->timestamps();
         });
     }

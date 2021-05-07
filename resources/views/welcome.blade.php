@@ -9,10 +9,10 @@
   <title>Itmath||Sohalar</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-  <meta name="_token" content="{{ csrf_token() }}">
+ 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
 
@@ -39,18 +39,18 @@
   ======================================================== -->
 </head>
 
-<body>
+<body style="background: rgba(255, 255, 255, 0.979)">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
-  <main id="main">
+  
 
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
 
-        <div class="row gy-6">
+        <div class="row">
 
-          <div class="col-lg-8">
+          <div class=" col-sm-8 col-lg-8">
         
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
               <div class="carousel-inner">
@@ -77,6 +77,34 @@
 
                 <br>
 
+                <h3 align='center'>Mavjud qo'llanmalar ro'yxati</h3>
+                <table class="table table-striped table-bordered">
+                  <thead>
+                  <tr>
+                  <th>№</th>
+                  <th   align='center'>Dars mavzusi</th>
+                  <th  align='center'>Video</th>
+                  <th  align='center'>Dastur Kod</th>
+                  
+                  </tr>
+                  </thead>
+                  @foreach($seach as $key => $value)
+                  <tbody>
+                    <tr>
+                      <th align='center'> {{$value->id}} </th>
+                      <td> <a href="http://itmath1.uz/{{$value->mavzu_title}}">{{$value->mavzu}}</a> </td>
+                      <td> <a href="https://www.youtube.com/{{$value->video_title}}"> {{$value->Video}} </a> </td>
+                      <td align='center' > <a href="https://github.com/Murod1990/{{$value->kod_title}}">{{$value->kod}}</a> </td>
+                    </tr>
+                    </tbody>
+                    
+                  @endforeach
+                 
+                  
+    
+                
+                </table>
+               {{ $seach ->links() }}
               
               <div class="swiper-wrapper align-items-center">
                 <div class="card" style="width: 19rem;">
@@ -94,7 +122,7 @@
                 </div>
                 &amp;
                 <div class="card" style="width: 19rem;">
-                  <a href=""><img src="{{Asset('jpg/add google.jpg')}}" class="card-img-top" alt="..."></a> 
+                   <a href=""><img src="{{Asset('jpg/add google.jpg')}}" class="card-img-top" alt="..."></a> 
                    <div class="card-body">
                      <p class="card-text">Add Google nima  </p>
                    </div>
@@ -104,31 +132,13 @@
              
 
             </div>
-
+           
             <br>
-            <input type="text" class="form-controller" id="search" name="search"> </input>
-              <table class="table">
-                <thead>
-                <tr>
-                <th scope="col">№</th>
-                <th scope="col">Dars mavzusi</th>
-                <th scope="col">Video</th>
-                
-                </tr>
-                </thead>
-  
-               
-                <tbody>
-                
-               </tbody>
-  
-              
-              </table>
-              
+       
               
           </div>
           
-          <div class="col-lg-4">
+          <div class="col-sm-4 col-lg-4">
             <div class="portfolio-info">
               <h3>Itmath</h3>
               <ul>
@@ -139,18 +149,20 @@
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
+              <h2 align='center'>Menning tajribam </h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+               Men so'ngi 2 yildan ichida Laravel,PHP,javascript,Bootstrap,CSS3,Mysql 
+               texnalogiyalari bilan ishlab keliyabman agar siz men  bilan ishlamoqchi bo'lsangiz 
+               quyidagi aloqa vositalari bilan bog'lanishingiz mumkin
               </p>
+              <p> <strong> Tel: +998914463802 </strong></p>
+              <p><strong>E mail: jonsrasulov@gmail.com </strong></p>
             </div>
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3>Loyihalar ro'yxati</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="">www.example.com</a></li>
+                <li><strong>Onlayn test tizimi</strong>: PHP,Ajax,javascript,MYSQL </li>
+                
               </ul>
             </div>
           </div>
@@ -160,9 +172,9 @@
       </div>
     </section><!-- End Portfolio Details Section -->
 
-  </main><!-- End #main -->
+ <!-- End #main -->
 
-  <div id="preloader"></div>
+ 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
@@ -176,26 +188,10 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
-  <!-- Template Main JS File -->
+  
   <script src="assets/js/main.js"></script>
 
 </body>
 
 </html>
 
-<script type="text/javascript">
-  $('#search').on('keyup',function(){
-  $value=$(this).val();
-  $.ajax({
-  type : 'get',
-  url : '{{URL::to('search')}}',
-  data:{'search':$value},
-  success:function(data){
-  $('tbody').html(data);
-  }
-  });
-  })
-  </script>
-  <script type="text/javascript">
-    $.ajaxSetup({ headers: { 'csrftoken' : '{{ csrf_token() }}' } });
-    </script>

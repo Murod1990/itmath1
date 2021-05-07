@@ -38,4 +38,13 @@ Route::get('/sintaksis','Darscontroller@sintaksis');
 Route::get('/vrable','Darscontroller@orgauvchi');
 Route::get('/malumot-turlari','Darscontroller@maltur');
 Route::get('/Satrlar-1','Darscontroller@strlar');
-Route::get( '/search' , 'PytcController@seach' ) ;
+
+Route::get('/email-adres-xabar', function () {
+    return view('emali');
+});
+Route::get('/laravelda-tilli-sayt-qilish', function () {
+    return view('tillisayt');
+});
+
+
+

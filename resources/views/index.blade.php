@@ -164,7 +164,7 @@
                 
 
                   </ul>
-               <h2><a href='/welcome'>Turli xil dasturlash tili </a></h2> 
+               <h2><a href='/welcome'>Turli xil Loyihalar </a></h2> 
               </div>
             </div>
             
