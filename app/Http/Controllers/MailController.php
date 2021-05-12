@@ -29,8 +29,4 @@ Mail::to('jonsrasulov@gmail.com')->send(new SendMail($date));
 return back()->with('success', " So'rovingiz uchun rahmat sizga tez orada bog'lanamiz !");
 
  }
-
-
-
-
 }

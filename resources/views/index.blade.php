@@ -40,8 +40,6 @@
     text-shadow: 4px 4px 12px rgb(245, 194, 27);
   }
   
-
-
   p[id='kode']
   {
     font-size: 25px;
@@ -127,9 +125,10 @@
         <div>
       </div>
     </div>
-    
+    <br>
+    <br>
+<h4 align='center'>Bilimingizni sinab ko'ring</h4>
 
-   <br>
   </section><!-- End Hero -->
 
   <main id="main">
