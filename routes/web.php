@@ -20,6 +20,7 @@ Route::get('locale/{locale}',function ($locale)
     return redirect()->back();
 });
 
+
 Route::get('/', function () {
     return view('index');
 });

@@ -16,7 +16,27 @@ return [
 "Chet tillarni bilish (rus va ingliz)" => "Chet tillarni bilish (rus va ingliz)",
 "O'qitishda turli xil dasturlash tillarini aralashtirmang"=>"O'qitishda turli xil dasturlash tillarini aralashtirmang",
 "Har doim yangi texnologiyalarni o'rganish"=>"Har doim yangi texnologiyalarni o'rganish",
-"Mavjuv qo'llanmalar soni va foydalanuvchilar soni"=>"Mavjuv qo'llanmalar soni va foydalanuvchilar soni"
-
-
+"Mavjuv qo'llanmalar soni va foydalanuvchilar soni"=>"Mavjuv qo'llanmalar soni va foydalanuvchilar soni",
+"Bilimingizni sinab ko'ring"=>"Bilimingizni sinab ko'ring",
+"Web dasturlash (bekend)"=>'Web dasturlash (bekend)',
+'PHP dasturlash tili'=>'PHP dasturlash tili',
+'SQl tili (MYSQL baza)'=>'SQl tili (MYSQL baza)',
+'Laravel framework'=>'Laravel framework',
+'Python tili'=>'Python tili',
+'Elektron darslik'=>'Elektron darslik',
+'100 dan ortiq misollar'=>'100 dan ortiq misollar',
+"Ushbu elektron ta'lim dasturi veb-dasturlash va ob'ektga yo'naltirilgan ta'lim yo'nalishlarini o'z ichiga oladi. Veb-saytga to'liq kirish uchun siz ro'yxatdan o'tishingiz kerak."=>"Ushbu elektron ta'lim dasturi veb-dasturlash va ob'ektga yo'naltirilgan ta'lim yo'nalishlarini o'z ichiga oladi. Veb-saytga to'liq kirish uchun siz ro'yxatdan o'tishingiz kerak.",
+"Siz ushbu saytga tashrif buyurganingizni, dasturlashga qiziqishingizni anglatishingizdan qat'iy nazar, biz sizga bilimingizni kengaytirishga yordam beramiz."=>"Siz ushbu saytga tashrif buyurganingizni, dasturlashga qiziqishingizni anglatishingizdan qat'iy nazar, biz sizga bilimingizni kengaytirishga yordam beramiz.",
+"Agar siz dasturlashni o'rganishni istasangiz, biz sizga yordam beramiz. Dasturlashni o'rganishga qo'yiladigan asosiy talablar:"=>"Agar siz dasturlashni o'rganishni istasangiz, biz sizga yordam beramiz. Dasturlashni o'rganishga qo'yiladigan asosiy talablar:",
+"Mavjuv qo'llanmalar soni va foydalanuvchilar soni"=>"Mavjuv qo'llanmalar soni va foydalanuvchilar soni",
+"Turli xil loyihalar"=>"Turli xil loyihalar",
+"FAKTLAR"=> "FAKTLAR",
+"Foydalanuvchi"=> "Foydalanuvchi",
+"Qo'llanmalar"=> "Qo'llanmalar",
+"Viedo darslar" =>"Viedo darslar",
+"BOG'LANISH" => "BOG'LANISH",
+"Ism" => "Ism",
+"Maqsad" => 'Maqsad',
+"Xabar" => "Xabar" ,
+"Yuborish" => "Yuborish"
 ];

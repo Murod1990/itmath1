@@ -44,6 +44,16 @@
   {
     font-size: 25px;
   }
+button[id='tur']{
+  border:5;
+  font-size: 20px;
+  border-bottom-left-radius: 30%;
+  border-left-color: crimson;
+ 
+  height: 70px;
+
+}
+
   </style>
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -56,12 +66,12 @@
 
 <!-- ======= Mobile nav toggle button ======= -->
   <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <i  class="bi bi-list mobile-nav-toggle d-xl-none"> </i>
   <!-- ======= Header ======= -->
   <!-- ======= Header ======= -->
 
 
-  <header id="header" class="d-flex flex-column justify-content-center">
+  <header id="header"  class="d-flex flex-column justify-content-center">
     
     <nav id="navbar" class="navbar nav-menu">
       <ul>
@@ -92,19 +102,18 @@
         <a href="https://www.youtube.com/channel/UCPKOext57RMQ0JtR_anoRGw" class="youtube" title='youtube'><i class="bx bxl-youtube"></i></a>
       
       </div>
-      Ushbu elektron o'quv dastur Web dasturlash  va Obyektga yo'naltirilgan dasrlash yo'nalishlarini o'z ichiga oladi
-      Web saytdan o'liq foydalanish uchun siz avval ro'yxatdan o'tishiz talab qilinadi
+      @lang("home.Ushbu elektron ta'lim dasturi veb-dasturlash va ob'ektga yo'naltirilgan ta'lim yo'nalishlarini o'z ichiga oladi. Veb-saytga to'liq kirish uchun siz ro'yxatdan o'tishingiz kerak.")
      <div class='container'>
        <div class='row'>
       <div  class='col-sm-6 col-md-6'>
        
        <br>
-      <p>Web dasturlash (bekend)</p>
+      <p>@lang('home.Web dasturlash (bekend)')</p>
        <ul>
 
-        <li>PHP dasturlash  tili </li>
-        <li>SQl tili (MYSQL baza)</li>
-        <li>Laravel framework</li>
+        <li>@lang('home.PHP dasturlash tili')</li>
+        <li>@lang('home.SQl tili (MYSQL baza)')</li>
+        <li>@lang('home.Laravel framework')</li>
 
        </ul>
       
@@ -112,12 +121,12 @@
       
       <div class='col-sm-6 col-md-6'>
         <br>
-        Python tili
+       @lang('home.Python tili')
         <ul>
 
-          <li>Electron darslik </li>
-          <li>100 dan ortiq misollar</li>
-          <li>Kodlarni ko'chirib olish</li>
+          <li>@lang('home.Elektron darslik') </li>
+          <li>@lang('home.100 dan ortiq misollar')</li>
+          <li> @lang("home.Kodlarni ko'chirib olish")</li>
   
          </ul>
         </div>
@@ -127,7 +136,7 @@
     </div>
     <br>
     <br>
-<h4 align='center'>Bilimingizni sinab ko'ring</h4>
+<h4 align='center'> <button type="button" class="btn btn-outline-warning"> <a href="/subjecti">@lang("home.Bilimingizni sinab ko'ring")</a> </button> </h4>
 
   </section><!-- End Hero -->
 
@@ -139,7 +148,7 @@
 
         <div class="section-title">
           <h2>@lang('home.Biz haqimizda')</h2>
-          <p>Siz ushbu saytga tashrif buyurdingizmi demak sizda dasturlash bo'lgan qiziqish mavjud biz sizning bilimlaringizni o'stirishga yordam beramiz</p>
+          <p>@lang("home.Siz ushbu saytga tashrif buyurganingizni, dasturlashga qiziqishingizni anglatishingizdan qat'iy nazar, biz sizga bilimingizni kengaytirishga yordam beramiz.")</p>
         </div>
 
         <div class="row">
@@ -149,8 +158,7 @@
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>@lang('home.Web dasturlash') &amp; @lang("home.Ma'lumotlar bazasi bilan ishlash").</h3>
             <p class="fst-italic">
-              Bilim olishning erta-yu kechi yo'q. Dasturalshni nimadan o'rganishni boshlasam ekan  deb o'ylab turibsizmi  unda biz sizga yordam beramiz
-              dasturalashni o'rganishda qo'yiladigan asosiy talablar quyidagicha :
+             @lang("home.Agar siz dasturlashni o'rganishni istasangiz, biz sizga yordam beramiz. Dasturlashni o'rganishga qo'yiladigan asosiy talablar:")
             </p>
             <div class="row">
               
@@ -163,7 +171,7 @@
                 
 
                   </ul>
-               <h2><a href='/welcome'>Turli xil Loyihalar </a></h2> 
+               <h2><button id='tur' type="button" class="btn btn-outline-success"><a href='/welcome'>@lang("home.Turli xil loyihalar") </a></button> </h2> 
               </div>
             </div>
             
@@ -178,7 +186,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Faktlar</h2>
+          <h2>@lang('home.FAKTLAR')</h2>
           <p>@lang("home.Mavjuv qo'llanmalar soni va foydalanuvchilar soni").</p>
         </div>
 
@@ -188,7 +196,7 @@
             <div class="count-box">
               <i class="bi bi-emoji-smile"></i>
               <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Foydalanuvchi</p>
+              <p>@lang('home.Foydalanuvchi')</p>
             </div>
           </div>
 
@@ -196,7 +204,7 @@
             <div class="count-box">
               <i class="bi bi-journal-richtext"></i>
               <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Qo'lanmalar</p>
+              <p>@lang("home.Qo'llanmalar")</p>
             </div>
           </div>
 
@@ -204,7 +212,7 @@
             <div class="count-box">
               <i class="bi bi-headset"></i>
               <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Viedo darslar</p>
+              <p>@lang("home.Viedo darslar")</p>
             </div>
           </div>
 
@@ -229,7 +237,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Bog'lanish</h2>
+          <h2>@lang("home.BOG'LANISH")</h2>
         </div>
 
         <div class="row mt-1">
@@ -275,21 +283,21 @@
                   <div class="row">
                
                     <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Ismingiz" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder=@lang('home.Ism')  required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Maqsad" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="@lang('home.Maqsad')" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Xabar..." required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="@lang('home.Xabar')..." required></textarea>
               </div>
              <div class='my-3'>
                 
-                <div class="text-center"><input type="submit" class="btn btn-success" value="Jo'natish"> </div>
+                <div class="text-center"><input type="submit" class="btn btn-success" value="@lang('home.Yuborish')"> </div>
             </div>
               
             </form>
