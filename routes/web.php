@@ -47,5 +47,7 @@ Route::get('/laravelda-tilli-sayt-qilish', function () {
     return view('tillisayt');
 });
 
+Route::get('/loyi','PytcController@saqqq');
+
 
 

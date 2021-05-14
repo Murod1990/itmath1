@@ -9,12 +9,21 @@ use  Validator;
 class PytcController extends Controller
 {
 
-    public function saq()
+
+public function saq()
+ 
+{
+    
+return view('welcome');
+
+}
+
+    public function saqqq()
     {
   
         $seach = DB::table('pytcs')->paginate(5);
 
-         return view ('welcome',compact('seach'));
+         return view ('darslar/php_dars.lar_video',compact('seach'));
     }
 
 
@@ -104,4 +113,8 @@ if($velidator->fails())
     } 
     
     
+
+
+
+
 }
