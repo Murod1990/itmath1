@@ -13,6 +13,8 @@
 use App\Http\Controllers\Darscontrollerr;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MailController;
+use App\Http\Controllers\PytcController;
+
 
 Route::get('locale/{locale}',function ($locale)
 {
@@ -25,6 +27,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+
+
+
+
 Route::get('/begines','Darscontroller@boshlandi')->name('darslar.index');
 
 Route::get('/phpr001','Darscontroller@php1');
@@ -32,7 +38,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('index');
 
-Route::get('/welcome','PytcController@saq');
+
 Route::post('/sendmail','MailController@build');
 Route::get('/php0457','Darscontroller@ozgar');
 Route::get('/sintaksis','Darscontroller@sintaksis');
@@ -48,6 +54,18 @@ Route::get('/laravelda-tilli-sayt-qilish', function () {
 });
 
 Route::get('/loyi','PytcController@saqqq');
+
+Route::get('/turlar',function()
+{
+    return view('tur');
+});
+
+
+
+
+
+
+
 
 
 

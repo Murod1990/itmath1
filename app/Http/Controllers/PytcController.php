@@ -10,14 +10,6 @@ class PytcController extends Controller
 {
 
 
-public function saq()
- 
-{
-    
-return view('welcome');
-
-}
-
     public function saqqq()
     {
   

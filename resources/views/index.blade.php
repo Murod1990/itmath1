@@ -8,7 +8,7 @@
   <title>Itmath</title>
   <meta name="description" content="Itmath.uz sayti">
 
-  
+  <link rel="stylesheet" href="sweetalert2.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
   
   <!-- Vendor CSS Files -->
@@ -18,7 +18,8 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  
+ 
+
 
   <style> 
   span[id='kod']
@@ -44,15 +45,7 @@
   {
     font-size: 25px;
   }
-button[id='tur']{
-  border:5;
-  font-size: 20px;
-  border-bottom-left-radius: 30%;
-  border-left-color: crimson;
- 
-  height: 70px;
 
-}
 
   </style>
   <!-- Template Main CSS File -->
@@ -69,7 +62,8 @@ button[id='tur']{
   <i  class="bi bi-list mobile-nav-toggle d-xl-none"> </i>
   <!-- ======= Header ======= -->
   <!-- ======= Header ======= -->
-
+  
+ 
 
   <header id="header"  class="d-flex flex-column justify-content-center">
     
@@ -136,7 +130,7 @@ button[id='tur']{
     </div>
     <br>
     <br>
-<h4 align='center'> <button type="button" class="btn btn-outline-warning"> <a href="/subjecti">@lang("home.Bilimingizni sinab ko'ring")</a> </button> </h4>
+<h4 align='center'> <button type="button" class="btn btn-outline-warning"> <a href="/myform">@lang("home.Bilimingizni sinab ko'ring")</a> </button> </h4>
 
   </section><!-- End Hero -->
 
@@ -171,7 +165,7 @@ button[id='tur']{
                 
 
                   </ul>
-               <h2><button id='tur' type="button" class="btn btn-outline-success"><a href='/welcome'>@lang("home.Turli xil loyihalar") </a></button> </h2> 
+               <h2><button id='tur' type="button" class="btn btn-outline-success"><a href='/turlar'>@lang("home.Turli xil yo'nalish") </a></button> </h2> 
               </div>
             </div>
             
@@ -271,12 +265,15 @@ button[id='tur']{
 
             <form action="/sendmail" method="post" data-aos="fade-left" >
                
-             
-                @if (Session::get('success'))
-                <div class="alert alert-primary" role="alert">
-              {{Session::get('success')}}
+              @if (Session::get('success'))
+            
+              <div class="alert alert-primary" role="alert">
+              Sizning so'rovingiz yuborildi
               </div>
-              @endif
+            
+              
+            @endif
+             
               
 
                   {{ csrf_field() }}

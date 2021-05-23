@@ -29,7 +29,7 @@ return [
 "Ushbu elektron ta'lim dasturi veb-dasturlash va ob'ektga yo'naltirilgan ta'lim yo'nalishlarini o'z ichiga oladi. Veb-saytga to'liq kirish uchun siz ro'yxatdan o'tishingiz kerak."=>"Эта программа электронного обучения включает области веб-программирования и объектно-ориентированного обучения. Вам необходимо зарегистрироваться, чтобы иметь полный доступ к сайту.",
 "Siz ushbu saytga tashrif buyurganingizni, dasturlashga qiziqishingizni anglatishingizdan qat'iy nazar, biz sizga bilimingizni kengaytirishga yordam beramiz."=>"Независимо от того, означает ли вы, что вы посещаете этот сайт, интересуетесь программированием, мы поможем вам расширить ваши знания.",
 "Agar siz dasturlashni o'rganishni istasangiz, biz sizga yordam beramiz. Dasturlashni o'rganishga qo'yiladigan asosiy talablar:" => " Если вы хотите научиться программированию, мы вам поможем. Основные требования для обучения программированию:",
-"Turli xil loyihalar" => "Различные проекты",
+"Turli xil yo'nalish" => "Другое направление",
 "FAKTLAR"=>"Факты",
 "Foydalanuvchi" => "пользователь",
 "Qo'llanmalar"=> "Гиды",

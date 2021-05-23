@@ -29,7 +29,7 @@ return [
 "Siz ushbu saytga tashrif buyurganingizni, dasturlashga qiziqishingizni anglatishingizdan qat'iy nazar, biz sizga bilimingizni kengaytirishga yordam beramiz."=>"Siz ushbu saytga tashrif buyurganingizni, dasturlashga qiziqishingizni anglatishingizdan qat'iy nazar, biz sizga bilimingizni kengaytirishga yordam beramiz.",
 "Agar siz dasturlashni o'rganishni istasangiz, biz sizga yordam beramiz. Dasturlashni o'rganishga qo'yiladigan asosiy talablar:"=>"Agar siz dasturlashni o'rganishni istasangiz, biz sizga yordam beramiz. Dasturlashni o'rganishga qo'yiladigan asosiy talablar:",
 "Mavjuv qo'llanmalar soni va foydalanuvchilar soni"=>"Mavjuv qo'llanmalar soni va foydalanuvchilar soni",
-"Turli xil loyihalar"=>"Turli xil loyihalar",
+"Turli xil yo'nalish"=>"Turli xil yo'nalish",
 "FAKTLAR"=> "FAKTLAR",
 "Foydalanuvchi"=> "Foydalanuvchi",
 "Qo'llanmalar"=> "Qo'llanmalar",
