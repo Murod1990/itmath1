@@ -55,11 +55,7 @@ Route::get('/laravelda-tilli-sayt-qilish', function () {
 
 Route::get('/loyi','PytcController@saqqq');
 
-Route::get('/turlar',function()
-{
-    return view('tur');
-});
-
+Route::get('/turlar','EcxelController@indexexcel')->name('tur');
 
 
 

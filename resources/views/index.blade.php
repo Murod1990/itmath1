@@ -165,8 +165,9 @@
                 
 
                   </ul>
-               <h2><button id='tur' type="button" class="btn btn-outline-success"><a href='/turlar'>@lang("home.Turli xil yo'nalish") </a></button> </h2> 
+                
               </div>
+              
             </div>
             
           </div>
@@ -174,7 +175,7 @@
 
       </div>
     </section><!-- End About Section -->
-
+    <h4 align='center' ><button type="button" class="btn btn-outline-success"><a href='/turlar'>@lang("home.Turli xil yo'nalish") </a></button> </h4>
     <!-- ======= Facts Section ======= -->
     <section id="facts" class="facts">
       <div class="container" data-aos="fade-up">

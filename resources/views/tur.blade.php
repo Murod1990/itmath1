@@ -52,7 +52,14 @@
                 </div>
               </div>
             </div>
+
+            <div class="col-md-12">
+              
+              
+            </div>
+          
           </div>
+
 
 
            
@@ -70,6 +77,34 @@
                     </div>
                   </div>
                 </div>
+
+                <div class="col-md-12">
+                  <table class="table table-striped table-bordered">
+                    <thead>
+                    <tr>
+                    <th>№</th>
+                    <th   align='center'>Dars mavzusi</th>
+                                   
+                    
+                    </tr>
+                    </thead>
+                    @foreach($sqk as $key => $value)
+                    <tbody>
+                      <tr>
+                        <th align='center'> {{$value->id}} </th>
+                        <td> <a href="http://itmath1.uz/{{$value->mavzu_title}}">{{$value->mavzu}}</a> </td>
+                       
+                      </tr>
+                      </tbody>
+                      
+                    @endforeach
+                   
+                      
+                  
+                  </table>
+                  {{ $sqk ->links() }}
+    
+                </div>
               </div>
 
               <div class="card mb-3" style="max-width: 800px;">
@@ -86,6 +121,33 @@
                     </div>
                   </div>
                 </div>
+
+                <div class="col-md-12">
+                  <table class="table table-striped table-bordered">
+                    <thead>
+                    <tr>
+                    <th>№</th>
+                    <th   align='center'>Dars mavzusi</th>
+                                   
+                    
+                    </tr>
+                    </thead>
+                    @foreach($sqc as $key => $vale)
+                    <tbody>
+                      <tr>
+                        <th align='center'> {{$vale->id}} </th>
+                        <td> <a href="http://itmath1.uz/{{$vale->mavzu_title}}">{{$vale->mavzu}}</a> </td>
+                       
+                      </tr>
+                      </tbody>
+                      
+                    @endforeach
+                   
+                      
+                  
+                  </table>
+                  {{ $sqc ->links() }}
+                </div>
               </div>
 
               <div class="card mb-3" style="max-width: 800px;">
@@ -100,6 +162,33 @@
                       <p class="card-text">Ushbu qo'llama Pyton dasturalsh tilini o'rganuvchilarga bag'ishlanadi</p>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <table class="table table-striped table-bordered">
+                      <thead>
+                      <tr>
+                      <th>№</th>
+                      <th   align='center'>Dars mavzusi</th>
+                                     
+                      
+                      </tr>
+                      </thead>
+                      @foreach($sqd as $key => $val)
+                      <tbody>
+                        <tr>
+                          <th align='center'> {{$val->id}} </th>
+                          <td> <a href="http://itmath1.uz/{{$val->mavzu_title}}">{{$val->mavzu}}</a> </td>
+                         
+                        </tr>
+                        </tbody>
+                        
+                      @endforeach
+                     
+                        
+                    
+                    </table>
+                    {{ $sqd ->links() }}
                   </div>
                 </div>
               </div>
