@@ -24,7 +24,8 @@
     <div class="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Itmath</a>
+            <img  src="{{Asset('jpg/itmath.jpg')}}" alt="" with=20 height="30">
+              <a class='fluid' href="#">Itmath</a>
               
              
             </div>
