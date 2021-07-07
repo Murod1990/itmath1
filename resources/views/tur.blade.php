@@ -49,7 +49,7 @@
                 <div class="card-body">
                   <a href=""> <h5 class="card-title">Elektron pochta haqida</h5></a>
                   <p class="card-text">Elektron pochta ochish  va uni sozlash,Google master bilan tanishish</p>
-                  <p class="card-text"><small class="text-muted">oxirgi marta 3 daqiqa oldin yangilandi</small></p>
+                 
                 </div>
               </div>
             </div>
@@ -74,7 +74,7 @@
                       <a href="">
                       <h5 class="card-title">Excel dasturi bilan ishlash</h5>  </a>
                       <p class="card-text">Excel imkonniyatlari ,funksiya bilan tanishish </p>
-                      <p class="card-text"><small class="text-muted">oxirgi marta 3 daqiqa oldin yangilandi</small></p>
+                     
                     </div>
                   </div>
                 </div>
@@ -118,7 +118,7 @@
                       <a href="">
                       <h5 class="card-title">C++ Dasturlash tili bo'yicha qo'llanma</h5>  </a>
                       <p class="card-text">Ushbu qo'llanmada 200 dan ortiq misol va masalar mavjud dasrslik ustoz Qudurat Abdurahimovning qo'llanmalari</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                     
                     </div>
                   </div>
                 </div>
@@ -161,7 +161,7 @@
                       <a href="">
                       <h5 class="card-title">Pyton dasturalsh tili dasrliklari</h5>  </a>
                       <p class="card-text">Ushbu qo'llama Pyton dasturalsh tilini o'rganuvchilarga bag'ishlanadi</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      
                     </div>
                   </div>
 
@@ -199,10 +199,14 @@
 
     </div>
  
+  <div id='app'>
+  
+    
+    <example-component> </example-component>
+  </div>
+
   
 
-  
-
-
+<script src="./js/app.js"></script>
   </body>
 </html>

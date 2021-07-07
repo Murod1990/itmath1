@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+ <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Ko'p tilli sayt qilish</title>
+    <title> Ko'p tilliy sayt qilish</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
    
    <style>
@@ -12,7 +12,7 @@
         h4
         {
            color:darkslategrey;
-           width: 350px;
+           width: 500px;
            height: 50px;
            background-color: rgb(255, 255, 255);
            font-weight: bold;
@@ -43,7 +43,7 @@
 <div class="container">
     <div class=row>
         <div class=col-sm-12>
-            <h1 id='kode'> Laravelda ko'p tilli  sayt yoki dastur loyihasi </h1>
+            <h1 id='kode'> Laravelda ko'p tilliy  sayt yoki dastur loyihasi </h1>
 
         
 <h4>Ishning rejasi</h4>
@@ -64,7 +64,19 @@ windows oparatsion tizimda Composer orqali o'rnatishni ko'rib chiqamiz.
 
 
 <div class="ratio ratio-16x9">
-    <iframe src="https://www.youtube.com/watch?v=xntKvaHRuJQ" title="YouTube video" allowfullscreen></iframe>
+ 
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/watch?v=RbPpu1f-1PA"
+  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/watch?v=lqMe5tfKmGA?autoplay=1><img src=//img.youtube.com/vi/Y8Wp3dafaMQ/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"
+>
+</iframe>
   </div>
 
 
@@ -80,7 +92,7 @@ windows oparatsion tizimda Composer orqali o'rnatishni ko'rib chiqamiz.
     <div class="card-img-overlay"> 
     </div>
     </div>
- Tilni almashtirish uchun ikkita tugma xususiyat yaratamiz 
+ Tillni almashtirish uchun ikkita tugma xususiyat yaratamiz 
  <textarea name="" id="" cols="50" rows="7">
 
     
@@ -98,7 +110,7 @@ windows oparatsion tizimda Composer orqali o'rnatishni ko'rib chiqamiz.
      
     </div>
   </div>
-<h4>4.Kernel faylda middlewareni qo'shamiz</h4>
+<h4 id='oll'>4.Kernel faylda middlewareni qo'shamiz</h4>
 <div class="card bg-dark text-white">
     <img src="{{Asset('jpg/ker.png')}}" class="card-img" alt="...">
     <div class="card-img-overlay">
@@ -115,7 +127,7 @@ windows oparatsion tizimda Composer orqali o'rnatishni ko'rib chiqamiz.
     </div>
   </div>
 
-  <h4> 6.Resources/lang papkani ichida papkalarni yaratib olamiz </h4>
+  <h4 id='oll'> 6.Resources/lang papkani ichida papkalarni yaratib olamiz </h4>
 
 Laravel frameworkning odatiy tili papchasi en bo'ladi en papka ichida home.php faylda quyidagicha tarjimalarni kiritamiz
 <div class="card bg-dark text-white">
@@ -124,7 +136,7 @@ Laravel frameworkning odatiy tili papchasi en bo'ladi en papka ichida home.php f
      
     </div>
   </div>
- endi tarjima qilishni boshladik har bir tarjimalar oldidan lang('category.Salom men tarjoma qilindim')
+ endi tarjima qilishni boshladik har bir tarjimalar oldidan lang('home.Salom men tarjima qilindim')
 
 </div>
     </div>
