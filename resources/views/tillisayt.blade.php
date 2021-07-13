@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Ko'p tilliy sayt qilish</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-   
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
    <style>
 
         h4
@@ -66,18 +66,11 @@ windows oparatsion tizimda Composer orqali o'rnatishni ko'rib chiqamiz.
 <div class="ratio ratio-16x9">
  
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/watch?v=RbPpu1f-1PA"
-  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/watch?v=lqMe5tfKmGA?autoplay=1><img src=//img.youtube.com/vi/Y8Wp3dafaMQ/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
-  frameborder="0"
-  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"
->
-</iframe>
-  </div>
+  <iframe width="640" height="360" src="video/1.mp4" title="Itmath.uz" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>></iframe>
+ 
+</div>
+
+
 
 
 <p>Yukalash tugallangandan so'ng quyidagi buyruq orqali yaratgan loyihamizni ko'rishimiz mumkin</p>
@@ -143,6 +136,53 @@ Laravel frameworkning odatiy tili papchasi en bo'ladi en papka ichida home.php f
 
 </div>
 
+<video
+id="my-video"
+class="video-js"
+controls
+preload="auto"
+width="640"
+height="264"
+poster="MY_VIDEO_POSTER.jpg"
+data-setup="{}"
+>
+<source src="video/1.mp4" type="video/mp4" />
+<source src="video/1.mp4" type="video/webm" />
+<p class="vjs-no-js">
+  To view this video please enable JavaScript, and consider upgrading to a
+  web browser that
+  <a href="https://videojs.com/html5-video-support/" target="_blank"
+    >supports HTML5 video</a
+  >
+</p>
+</video>
+
+<script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+
+
+
+<video
+id="my-video"
+class="video-js"
+controls
+preload="auto"
+width="640"
+height="264"
+poster="MY_VIDEO_POSTER.jpg"
+data-setup="{}"
+>
+<source src="video/1.mp4" type="video/mp4" />
+<source src="video/1.mp4" type="video/webm" />
+<p class="vjs-no-js">
+  To view this video please enable JavaScript, and consider upgrading to a
+  web browser that
+  <a href="https://videojs.com/html5-video-support/" target="_blank"
+    >supports HTML5 video</a
+  >
+</p>
+</video>
+
+<script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
 
 </body>
 </html>
